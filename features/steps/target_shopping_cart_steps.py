@@ -11,7 +11,7 @@ def open_main_page(context):
 @when('click on shopping cart icon')
 def shopping_cart(context):
     context.driver.find_element(By.XPATH, '//*[@id="headerPrimary"]/a[5]').click()
-    sleep(1)
+    sleep(3)
 
 @then('shopping cart is empty')
 def verify_cart(context):
