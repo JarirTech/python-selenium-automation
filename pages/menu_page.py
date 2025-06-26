@@ -5,4 +5,6 @@ from pages.base_page import Page
 
 class MenuPage(Page):
     def menuPage(self):
+        pass
+
 
